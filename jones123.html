@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cedrick's Birth Month - June 2025</title>
+
+<style>
+  /* === Page background and text styling === */
+  body {
+    background-image: url('download (1).jpg'); /* Background image for the calendar */
+    background-size: cover;                   /* Makes image cover the whole screen */
+    background-attachment: fixed;             /* Keeps background fixed while scrolling */
+    background-position: center;              /* Centers the background image */
+    font-family: Verdana, sans-serif;         /* Sets font for all text */
+    color: #f5f5f5;                           /* Light text color for contrast */
+    text-shadow: 1px 1px 3px black;           /* Adds shadow for better readability */
+  }
+
+  /* === Title styling === */
+  h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 5px black;           /* Adds a stronger shadow to the heading */
+  }
+
+  /* === Table (calendar) design === */
+  table {
+    border-collapse: collapse;                /* Merges table borders */
+    background-color: rgba(0, 0, 0, 0.5);     /* Semi-transparent background for calendar */
+  }
+
+  th, td {
+    height: 50px;                             /* Cell height */
+    width: 100px;                             /* Cell width */
+    text-align: center;                       /* Centers text inside each cell */
+    border: 3px solid #5dafff;                /* Blue border for all cells */
+    font-size: 20px;
+  }
+
+  th {
+    background-color: rgba(0, 100, 255, 0.7); /* Blue header background */
+    color: white;                             /* White text for headers */
+  }
+
+  /* === Red text for Sundays and holidays === */
+  .sunday,
+  .holiday {
+    color: #e60000;                           /* Red color for holidays/Sundays */
+    font-weight: bold;                        /* Bold text */
+  }
+
+  /* === Highlight holidays with a light red background === */
+  .holiday {
+    background-color: rgba(230, 0, 0, 0.07);  /* Light red tint background */
+    border-color: #e60000;                    /* Red border color */
+  }
+
+  /* === Birthday cell design === */
+  #birthday {
+    background-image: url('mehqt.jpg');       /* Adds my birthday photo */
+    background-size: cover;                   /* Makes the image fit the cell */
+    background-position: center;
+    color: #e60000;                           /* Red text to match holiday theme */
+    text-shadow: 0 0 3px rgba(255,255,255,0.8);
+    font-weight: bold;
+    cursor: default;
+    transition: transform 0.15s ease, box-shadow 0.15s ease; /* Smooth hover effect */
+  }
+
+  /* === Hover effect for birthday cell === */
+  #birthday:hover {
+    transform: scale(1.05);                   /* Slight zoom when hovered */
+    box-shadow: 0 0 12px rgba(230,0,0,0.45);  /* Red glow effect */
+  }
+
+  /* === Scrolling text at the bottom === */
+  marquee {
+    font-size: 20px;
+    color: #ffff66;                           /* Yellow text for visibility */
+  }
+</style>
+</head>
+
+<body>
+<br><br><br><br><br>
+
+<center>
+  <!-- Page heading -->
+  <h1>My Birth Month</h1>
+  <br><br>
+
+  <!-- Calendar table -->
+  <table>
+    <tr>
+      <th colspan="7">June 2025</th> <!-- Table title row -->
+    </tr>
+
+    <!-- Calendar header (days of the week) -->
+    <tr>
+      <th class="sunday">Sunday</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+      <th>Saturday</th>
+    </tr>
+
+    <!-- First week -->
+    <tr>
+      <td class="sunday">1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td class="holiday">6</td>   <!-- Eid'l Adha -->
+      <td>7</td>
+    </tr>
+
+    <!-- Second week -->
+    <tr>
+      <td class="sunday">8</td>
+      <td>9</td>
+      <td id="birthday" class="holiday">10</td> <!-- My birthday -->
+      <td>11</td>
+      <td class="holiday">12</td>  <!-- Independence Day -->
+      <td>13</td>
+      <td>14</td>
+    </tr>
+
+    <!-- Third week -->
+    <tr>
+      <td class="sunday">15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+    </tr>
+
+    <!-- Fourth week -->
+    <tr>
+      <td class="sunday">22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+    </tr>
+
+    <!-- Last week -->
+    <tr>
+      <td class="sunday">29</td>
+      <td>30</td>
+      <td></td><td></td><td></td><td></td><td></td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <!-- Scrolling list of important June events -->
+  <marquee behavior="scroll" direction="left">
+    [<b>JUNE 6 -</b> Eid'l Adha (Feast of Sacrifice)] 
+    [<b>JUNE 10 -</b> My Birthday 🎉] 
+    [<b>JUNE 12 -</b> Independence Day 🇵🇭]
+  </marquee>
+</center>
+
+</body>
+</html>

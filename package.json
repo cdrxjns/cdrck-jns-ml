@@ -1,0 +1,49 @@
+{
+  "projectName": "Cedrick Jones IT Portfolio",
+  "folderName": "ced",
+  "directoryStructure": {
+    "root": "ced/",
+    "files": [
+      {
+        "fileName": "index.html",
+        "type": "HTML Document",
+        "description": "Main structure for the portfolio website"
+      },
+      {
+        "fileName": "styles.css",
+        "type": "Cascading Style Sheet",
+        "description": "Global styles, visual layouts, and responsive design"
+      },
+      {
+        "fileName": "script.js",
+        "type": "JavaScript Source",
+        "description": "Interactivity, navigation toggles, scroll reveals, and age logic"
+      },
+      {
+        "fileName": "jones.jpg",
+        "type": "Image (JPEG)",
+        "description": "Main hero profile picture"
+      },
+      {
+        "fileName": "jones1.jpg",
+        "type": "Image (JPEG)",
+        "description": "Birthday calendar profile picture"
+      },
+      {
+        "fileName": "Jones_PCU Enrollment Form.html",
+        "type": "HTML Document",
+        "description": "PCU Enrollment Form project file"
+      },
+      {
+        "fileName": "jones123.html",
+        "type": "HTML Document",
+        "description": "Birth Month Calendar standalone project file"
+      },
+      {
+        "fileName": "Cedrick-Jones-CV.pdf",
+        "type": "PDF Document",
+        "description": "Downloadable curriculum vitae / resume"
+      }
+    ]
+  }
+}
